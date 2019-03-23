@@ -7,7 +7,7 @@ sudo: false
 
 deploy:
   provider: releases
-  api_key: "55ce4042a66034729f67e92d9d089e2c100fbbe4"
+  api_key: "b88cc83833d86f240556d005244b3179847a9805"
   file: "test.apk"
   skip_cleanup: true
   on:
