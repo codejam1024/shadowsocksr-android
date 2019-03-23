@@ -5,6 +5,14 @@ jdk:
 
 sudo: false
 
+deploy:
+  provider: releases
+  api_key: "55ce4042a66034729f67e92d9d089e2c100fbbe4"
+  file: "test.apk"
+  skip_cleanup: true
+  on:
+    tags: true
+
 addons:
     apt:
         packages:
