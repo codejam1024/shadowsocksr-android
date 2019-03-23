@@ -7,8 +7,9 @@ sudo: false
 
 deploy:
   provider: releases
-  api_key: "b88cc83833d86f240556d005244b3179847a9805"
-  file: "test.apk"
+  api_key:
+    secure: Rar9MWXI7am8+5hOWSuqgzQxHxZzuPKQf5NYnob9Kd+1KzCWPz6cZfi8Sjo0sqtnBGMecS/lvNHDxAwLkTj4useXzETPIywTcEhWq4ywvteiaEPn00Nf+PYNm5IgSTOZtYuz9CZdnLhMlmHrwITWhtugJbVRwbxKk4SPV4E+Synx4qMNSkN/SspVxEvfsFOzoxV4e5wPajxRsfi5y5KIZxLta7cMtYbtaPtISez1+miD9Ro6hTHf2n8wj18Xea3O41Q/k9ZyZbr97ryjYljoBtVINsx+hFVew7NPhqeNmRqTDR0BcWsPGP7IlSnnYeTum/rYrKlbW2hzM+DyfbDW3UqfTThcrnSxtz6/6wie7ZvXVCWtZNgCElcwPuEMc9vt8rDyIW/igHYlLtM2VVrz4i0zVtYugEYkVcCUYMuzg5ZaKPvKYT76fZ5ju0ffA1gg6FArxnKw6Ygk31HwX0uzP4GQm81kvqSGTljMy2JV5H/W6hRZUoLQBwOovAZKR/W8jCj4pgDul7Z0O8JUpIbmmQfu4HFyqceza7564tDbEOybwyUnDkKjS0/zBJjamhCtEEAxivdVAbt0Hd2Qh7Xpk+FgWr5Ottfv1qUjNJkmQe0uyUgLSQ+zqA4owyzz6+HaHNMsP3yZA7hkyTC9o3RDpRn9U4pymnuhDBRu5MJz0js=
+  file: test.apk
   skip_cleanup: true
   on:
     tags: true
