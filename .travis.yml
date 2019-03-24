@@ -54,3 +54,6 @@ install:
 
 script:
     - sbt native-build android:package-release
+    - ls -al /home/travis/build/codejam1024/shadowsocksr-android/
+    - find /home/travis/build/codejam1024/ -name "*.apk"
+    - ls
