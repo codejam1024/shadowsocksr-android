@@ -131,7 +131,7 @@ class SSRSubManager(dbHelper: DBHelper) {
 
   def createDefault(): SSRSub = {
     val ssrsub = new SSRSub {
-      url = "https://raw.githubusercontent.com/codejam1024/ProgramNote/dev2/test"
+      url = "https://raw.githubusercontent.com/codejam1024/ProgramNote/dev2/phone"
       url_group = "LaoSiJi v1"
     }
     createSSRSub(ssrsub)
